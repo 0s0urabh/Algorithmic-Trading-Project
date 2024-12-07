@@ -23,7 +23,7 @@ df['Returns'] = df['Intraday Price'].pct_change()
 # Step 2: Define the Trading Strategy
 # ================================================
 
-# Define trading windows (24-hour market assumption)
+# Define trading windows
 trading_windows = {
     'night': ('03:00', '05:00'),
     'morning': ('04:00', '07:00'),
